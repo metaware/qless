@@ -21,7 +21,7 @@ module Qless
 
     def initialize(client)
       @client = client
-      super
+      super()
     end
 
     helpers do
